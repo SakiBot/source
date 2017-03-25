@@ -242,7 +242,7 @@
         name: "SakiBot",
         loggedInID: null,
         scriptLink: "https://rawgit.com/SakiBot/source/master/basicBot.js",
-        cmdLink: "http://git.io/245Ppg",
+        cmdLink: "https://git.io/vSkjm",
         chatLink: "https://rawgit.com/SakiBot/source/master/lang/en.json",
         chat: null,
         loadChat: loadChat,
