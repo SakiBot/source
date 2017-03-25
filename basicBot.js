@@ -99,7 +99,7 @@
     var loadChat = function (cb) {
         if (!cb) cb = function () {
         };
-        $.get("https://rawgit.com/basicBot/source/master/lang/langIndex.json", function (json) {
+        $.get("https://rawgit.com/SakiBot/source/master/lang/langIndex.json", function (json) {
             var link = basicBot.chatLink;
             if (json !== null && typeof json !== "undefined") {
                 langIndex = json;
@@ -300,11 +300,11 @@
             etaRestriction: false,
             welcome: true,
             opLink: null,
-            rulesLink: null,
-            themeLink: null,
+            rulesLink: "http://gregtunes.weebly.com/community.html",
+            themeLink: "http://gregtunes.weebly.com/community.html",
             fbLink: null,
             youtubeLink: null,
-            website: null,
+            website: "http://gregtunes.weebly.com/",
             intervalMessages: [],
             messageInterval: 5,
             songstats: true,
